@@ -1,5 +1,4 @@
-Feature:
-   Joe registers on the site
+Feature: Registering
 
 Scenario: Registering for the site
    Given Joe is a Frequent Flyer member

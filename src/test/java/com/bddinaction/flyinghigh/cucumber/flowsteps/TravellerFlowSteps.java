@@ -1,13 +1,12 @@
 package com.bddinaction.flyinghigh.cucumber.flowsteps;
 
 import com.bddinaction.flyinghigh.cucumber.pages.BookingPage;
-import com.bddinaction.flyinghigh.cucumber.pages.LoginPage;
 import net.thucydides.core.annotations.Screenshots;
 import net.thucydides.core.annotations.Step;
 
 import java.util.List;
 
-import static org.fest.assertions.Assertions.assertThat;
+import static org.fest.assertions.api.Assertions.assertThat;
 
 public class TravellerFlowSteps extends AuthenticationFlowSteps {
 

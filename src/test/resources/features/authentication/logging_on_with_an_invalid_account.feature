@@ -1,5 +1,4 @@
-Feature:
-   Logging on to the 'My Flying High' web site
+Feature: Logging on to the 'My Flying High' web site
 
 Background:
    Given Joe is a Frequent Flyer member
