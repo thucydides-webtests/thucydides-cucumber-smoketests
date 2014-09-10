@@ -16,6 +16,7 @@
         <groovyVersion>2.2.1</groovyVersion>
         <cucumber.jvm.version>1.1.8</cucumber.jvm.version>
         <thucydides.version>0.9.269</thucydides.version>
+        <thucydides.jbehave.version>0.9.268</thucydides.jbehave.version>
     </properties>
 
     <dependencies>
@@ -32,8 +33,19 @@
         </dependency>
         <dependency>
             <groupId>net.thucydides</groupId>
+            <artifactId>thucydides-junit</artifactId>
+            <version>${thucydides.version}</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>log4j</artifactId>
+                    <groupId>log4j</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>net.thucydides</groupId>
             <artifactId>thucydides-cucumber-plugin</artifactId>
-            <version>0.9.269-alpha1</version>
+            <version>0.9.x-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.opera</groupId>
@@ -191,8 +203,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <thucydides.version>0.9.262</thucydides.version>
-                <thucydides.jbehave.version>0.9.262</thucydides.jbehave.version>
+                <thucydides.version>0.9.269</thucydides.version>
+                <thucydides.jbehave.version>0.9.268</thucydides.jbehave.version>
             </properties>
             <dependencies>
                 <dependency>
@@ -291,7 +303,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <thucydides.version>0.9.x-SNAPSHOT</thucydides.version>
+                <thucydides.version>0.9.269</thucydides.version>
             </properties>
             <build>
                 <plugins>

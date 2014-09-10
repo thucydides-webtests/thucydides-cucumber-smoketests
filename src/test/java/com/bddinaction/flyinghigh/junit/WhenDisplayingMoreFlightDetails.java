@@ -1,6 +1,5 @@
 package com.bddinaction.flyinghigh.junit;
 
-import com.bddinaction.flyinghigh.Application;
 import com.bddinaction.flyinghigh.cucumber.flowsteps.TravellerFlowSteps;
 import com.bddinaction.flyinghigh.cucumber.model.FrequentFlyerMember;
 import com.bddinaction.flyinghigh.cucumber.pages.BookingPage;
@@ -11,7 +10,6 @@ import net.thucydides.junit.runners.ThucydidesRunner;
 import org.junit.Assume;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.junit.experimental.theories.suppliers.TestedOn;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
